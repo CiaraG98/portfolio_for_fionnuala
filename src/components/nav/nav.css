@@ -1,0 +1,41 @@
+.nav__container {
+    width: 100%;
+    position: sticky;
+    background: var(--color-bg-variant);
+    overflow: hidden;
+    top: 0;
+    padding: 1rem;
+}
+
+.section__links {
+    display: flex;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+
+.section__links a {
+    color: var(--color-white);
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.section__links a:hover {
+    color: var(--color-white);
+    cursor: pointer;
+    background: var(--color-hover);
+}
+
+/* Medium Devices */
+
+@media screen and (max-width: 1024px) {
+    .nav__container {
+        padding: 0.5rem;
+    }
+}
+
+/* Small Devices */
+
+@media screen and (max-width: 600px) {
+
+}

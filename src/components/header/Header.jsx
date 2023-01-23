@@ -1,17 +1,19 @@
 import React from 'react'
-import {MdConstruction} from 'react-icons/md'
-import {FaLinkedin} from 'react-icons/fa'
 import './header.css'
+import Headshot from '../../assets/fion.jpg'
 
 const Header = () => {
   return (
-    <header>
-        <div className="container header__container">
-            <h3>fionnualameehan.com</h3>
-            <h1>Under Construction <MdConstruction/></h1>
-            <a className='header__socials' href="https://www.linkedin.com/in/fionnuala-meehan-156231a/" target='_blank'><FaLinkedin/></a>
-        </div>
-    </header>
+    <div id='header' className="container header__container">
+      <div className="header__phrase">
+        <h1 className="header__name">Fionnuala Meehan</h1>
+        <h3 className="phrase">Experience Enables Excellence</h3>
+      </div>
+
+      <div className="header__img">
+        <img src={Headshot} alt="AboutPhoto" />
+      </div>
+    </div>
   )
 }
 

@@ -1,0 +1,37 @@
+.about__container {
+    text-align: center;
+}
+
+.about__content {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.about__experience, .about__linkedin{
+    color: var(--color-white);
+    background: var(--color-bg-light);
+    border-radius: 2rem;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.about__experience h3, .about__linkedin h3 {
+    font-weight: 500;
+}
+
+.experience__list {
+    margin-top: 1rem;
+}
+
+.expertise__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.about__experience:hover, .about__linkedin:hover {
+    background: var(--color-hover);
+}

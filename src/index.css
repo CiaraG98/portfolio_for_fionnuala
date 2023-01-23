@@ -8,19 +8,26 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    font-weight: 200;
 }
 
 :root {
     --color-bg: #E5E7E9;
-    --color-bg-variant: #73C6B6;
-    --text-hover: #138D75;
-    --text-primary: #21618C;
+    --color-bg-variant: #173753;
+    --color-white: #fbfcff;
+    --color-hover: #274156;
+    --color-bg-light: #1c6e8c;
 
     --transition: all 400ms ease;
 }
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding-top, 100px);
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -29,13 +36,17 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
 a:hover {
     color: var(--text-hover);
     transition: var(--transition);
+}
+
+section {
+    margin-top: 5rem;
 }
 
 a {
