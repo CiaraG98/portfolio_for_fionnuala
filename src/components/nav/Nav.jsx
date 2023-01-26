@@ -1,7 +1,7 @@
 import React from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
-import { useState, useEffect } from 'react'
+import CV from '../../assets/Fionnuala_Meehan_CV.pdf'
 
 const nav = () => {
   return (
@@ -12,6 +12,7 @@ const nav = () => {
           <a href="#services">Services</a>
           <a href="#testimonials">Testimonials</a>
           <a href="#contact">Get In Touch</a>
+          <a href={CV} download className='btn nav__download'>Download CV</a>
         </div>
     </div>
   );

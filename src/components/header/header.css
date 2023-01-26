@@ -1,6 +1,6 @@
 .container.header__container {
     width: 100%;
-    height: 50vh;
+    height: 52vh;
     display: grid;
     grid-template-columns: 50% 35%;
     padding: 2rem;

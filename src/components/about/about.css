@@ -35,3 +35,17 @@
 .about__experience:hover, .about__linkedin:hover {
     background: var(--color-hover);
 }
+
+/* Medium Devices */
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* Small Devices */
+
+@media screen and (max-width: 600px) {
+    .about__content {
+        grid-template-columns: 1fr;
+    }
+}

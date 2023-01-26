@@ -1,3 +1,43 @@
-.services__container {
+.container.services__container {
     text-align: center;
+}
+
+.services__cards {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.services__card {
+    border-radius: 2rem;
+    overflow: hidden;
+    background: var(--color-bg-light);
+    color: var(--color-white);
+    border: 1px solid var(--color-bg);
+    transition: var(--transition);
+}
+
+.services__card-text {
+    padding: 2rem;
+}
+
+.services__card-text h2 {
+    text-align: center;
+}
+
+.services__card-text p {
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.services__card img {
+    width: 100%;
+}
+
+.services__card:hover {
+    border-color: var(--color-bg-light);
+    background: #d0ccd0;
+    color: black;
+    cursor: transparent;
 }

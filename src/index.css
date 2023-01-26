@@ -53,3 +53,11 @@ a {
     text-decoration: none;
     color: var(--text-primary);
 }
+
+.btn {
+    width: max-content;
+    background: var(--color-bg-light);
+    color: var(--color-white);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
