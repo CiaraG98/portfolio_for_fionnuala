@@ -5,6 +5,9 @@
     overflow: hidden;
     top: 0;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
 }
 
 .section__links {
@@ -15,15 +18,23 @@
 
 .section__links a {
     color: var(--color-white);
-    padding: 1rem;
-    border-radius: 2rem;
     transition: var(--transition);
+    padding-bottom: 3px;
+    border-bottom: 1px solid transparent;
 }
 
 .section__links a:hover {
-    color: var(--color-white);
     cursor: pointer;
-    background: var(--color-hover);
+    border-bottom-color: var(--color-white);
+}
+
+.nav__download {
+    position: fixed;
+    right: 3rem;
+}
+
+.section__links a.active {
+    border-bottom-color: var(--color-white);
 }
 
 /* Medium Devices */

@@ -2,20 +2,22 @@ import React from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
 import CV from '../../assets/Fionnuala_Meehan_CV.pdf'
+import { useState } from 'react'
 
-const nav = () => {
+const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#header')
   return (
     <div className="nav__container">
         <div className="section__links">
-          <a href="#header"><AiFillHome /></a>
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#testimonials">Testimonials</a>
-          <a href="#contact">Get In Touch</a>
-          <a href={CV} download className='btn nav__download'>Download CV</a>
+          <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active': ''}><AiFillHome /></a>
+          <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active': ''}>About</a>
+          <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active': ''}>Services</a>
+          <a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active': ''}>Testimonials</a>
+          <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active': ''}>Get In Touch</a>
         </div>
+        <a href={CV} download className='btn nav__download'>Download CV</a>
     </div>
   );
 }
 
-export default nav
+export default Nav

@@ -35,9 +35,10 @@
     width: 100%;
 }
 
+/*
 .services__card:hover {
     border-color: var(--color-bg-light);
     background: #d0ccd0;
     color: black;
     cursor: transparent;
-}
+}*/
