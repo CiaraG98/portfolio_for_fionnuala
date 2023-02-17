@@ -1,7 +1,6 @@
 import React from 'react'
 import './nav.css'
 import {AiFillHome} from 'react-icons/ai'
-import CV from '../../assets/Fionnuala_Meehan_CV.pdf'
 import { useState } from 'react'
 
 const Nav = () => {
@@ -15,7 +14,6 @@ const Nav = () => {
           <a href="#testimonials" onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active': ''}>Testimonials</a>
           <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active': ''}>Get In Touch</a>
         </div>
-        <a href={CV} download className='btn nav__download'>Further Info</a>
     </div>
   );
 }

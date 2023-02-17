@@ -20,14 +20,6 @@
     padding: 2rem;
 }
 
-@keyframes logo_animation {
-    0% {transform: rotate(0deg);}
-    25% {transform: rotate(-20deg);}
-    50% {transform: rotate(20deg);}
-    75% {transform: rotate(-20deg);}
-    100% {transform: rotate((0deg))}
-}
-
 .splash {
     margin-top: 0.5rem;
     display: flex;
@@ -47,7 +39,22 @@
 
 @media screen and (max-width: 1024px) {
     .container.header__container {
-        height: 25vh;
+        height: 55vh;
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 0rem;
+        font-size: smaller;
+        padding: 0rem;
+    }
+    .splash {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .header__img img {
+        width: 20rem;
+    }
+    .header__img {
+        margin-top: -2rem;
     }
 }
 

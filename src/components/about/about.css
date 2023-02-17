@@ -7,8 +7,6 @@
 
 .about__experience, .about__linkedin{
     text-align: left;
-    /*color: var(--color-white);
-    background: var(--color-bg-light);*/
     padding: 2rem;
     transition: var(--transition);
 }
@@ -61,7 +59,14 @@ h1 {
 /* Medium Devices */
 
 @media screen and (max-width: 1024px) {
+    .about__content {
+        grid-template-columns: 1fr;
+    }
 
+    .about__experience {
+        border-right: 0px transparent;
+        border-bottom: 1px solid var(--color-bg-variant);
+    }
 }
 
 /* Small Devices */

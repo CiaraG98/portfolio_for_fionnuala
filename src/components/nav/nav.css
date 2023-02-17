@@ -40,8 +40,8 @@
 /* Medium Devices */
 
 @media screen and (max-width: 1024px) {
-    .nav__container {
-        padding: 0.5rem;
+    .nav__download {
+        display: none;
     }
 }
 

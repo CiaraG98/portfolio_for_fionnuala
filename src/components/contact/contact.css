@@ -1,5 +1,5 @@
 .contact__container {
-    padding: 5rem;
+    padding: 0 4rem 0 4rem;
 }
 
 form {
@@ -45,30 +45,46 @@ button:hover{
     font-size: 1.5rem;
 }
 
-.contact__linkedin {
-    background: var(--color-bg-light);
-    width: 40%;
-    height: 25vh;
+.contact__further {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact__further div {
+    margin: auto;
+    background: #00a6a6;
+    width: 15rem;
+    height: 10rem;
     border-radius: 1rem;
     padding: 2rem;
     color: var(--color-white);
-    margin-left: 2rem;
-    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
-    align-items: center;
 }
 
-.contact__linkedin h3 {
+.contact__further h3 {
     font-weight: 400;
 }
 
-.contact__container a {
-    font-size: 1.5rem;
+.contact__further a {
+    font-size: 2rem;
 }
 
 .contact__container a:hover {
-    color: var(--color-bg-variant);
+    color: #0072b1;
+    font-size: 2.5rem;
+}
+
+/* Medium Devices */
+
+@media screen and (max-width: 1024px) {
+    .contact__content {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__further {
+        margin-top: 2rem;
+    }
 }

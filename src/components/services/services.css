@@ -28,11 +28,19 @@
 
 .services__card-text p {
     margin-top: 1rem;
-    text-align: justify;
+    line-height: 2rem;
 }
 
 .services__card img {
     width: 100%;
+}
+
+/* Medium Devices */
+
+@media screen and (max-width: 1024px) {
+    .services__cards {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /*

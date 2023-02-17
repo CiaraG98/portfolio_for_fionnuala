@@ -3,7 +3,9 @@ import './contact.css'
 import { useRef } from 'react'
 import {MdEmail} from 'react-icons/md'
 import {BsLinkedin} from 'react-icons/bs'
+import {FcOpenedFolder} from 'react-icons/fc'
 import emailjs from 'emailjs-com'
+import CV from '../../assets/Fionnuala_Meehan_CV.pdf'
 
 const Contact = () => {
   const contactForm = useRef();
@@ -37,10 +39,16 @@ const Contact = () => {
               <button type='submit' className='btn'>Send Message</button>
           </form>
 
+          <div className="contact__further">
             <div className="contact__linkedin">
-              <h3>Find me on LinkedIn</h3>
+              <h3>Find me on</h3>
               <a href="https://www.linkedin.com/in/fionnuala-meehan-156231a/" target='_blank'><BsLinkedin /></a>
             </div>
+            <div className="contact__portfolio">
+              <h3>View my Portfolio</h3>
+              <a href={CV} download><FcOpenedFolder /></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
