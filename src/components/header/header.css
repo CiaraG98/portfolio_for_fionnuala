@@ -4,19 +4,16 @@
     display: grid;
     grid-template-columns: 50% 35%;
     padding: 2rem;
-    background: linear-gradient(#d0ccd0, #598392);
+    background: linear-gradient(45deg, #F8C471, #598392);
     gap: 3rem;
     justify-content: center;
     overflow: hidden;
     align-items: center;
 }
 
-.header__img {
-    width: 100%;
-}
-
 .header__img img {
     width: 100%;
+    border-radius: 0.5rem;
 }
 
 .header__phrase {
@@ -32,17 +29,18 @@
 }
 
 .splash {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
 .header__icon {
-    font-size: 5rem;
     margin-top: 0.5rem;
-    background: #fbf6ef;
+    font-size: 4rem;
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 0.2rem;
+    background: #fbf6ef;
 }
 
 /* Medium Devices */

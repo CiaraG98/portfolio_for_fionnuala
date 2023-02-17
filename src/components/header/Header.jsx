@@ -10,7 +10,9 @@ const Header = () => {
       <div className="header__phrase">
         <h1 className="header__name">Fionnuala Meehan</h1>
         <div className="splash">
-          <FcGoogle className='header__icon'/>
+          <div className="icon__bg">
+            <FcGoogle className='header__icon'/>
+          </div>
           <h1>Former CEO of Google Ireland & VP SMB Sales EMEA</h1>
         </div>
 

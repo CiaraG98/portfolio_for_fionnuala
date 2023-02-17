@@ -1,0 +1,27 @@
+.testimonials__container h1 {
+    text-align: center;
+}
+
+.testimonials__content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial__card {
+    padding: 2rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial__card p {
+    font-weight: 300;
+}
+
+#card1 {
+    border-right: 1px solid var(--color-bg-variant);
+    padding-right: 3.5rem;
+}

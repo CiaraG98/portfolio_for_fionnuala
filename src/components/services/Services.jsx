@@ -20,34 +20,25 @@ const Services = () => {
           <div className="services__card-text">
             <h2>Non-Executive Director Board Member</h2>
             <p className="service__description">
-              Fionnuala, always a keen student, took an avid interest in languages and 
-              history in secondary school and chose a BA in European Studies in Trinity 
-              College Dublin after her leaving certificate, graduating with a first-class 
-              degree and a distinction in spoken German.
+              Blurb
             </p>
           </div>
         </div>
         <div className="services__card">
           <img src={Service2} alt="Service_2" />
           <div className="services__card-text">
-            <h2>CEO Mentor</h2>
+            <h2>CEO Mentoring</h2>
             <p className="service__description">
-              Fionnuala, always a keen student, took an avid interest in languages and 
-              history in secondary school and chose a BA in European Studies in Trinity 
-              College Dublin after her leaving certificate, graduating with a first-class 
-              degree and a distinction in spoken German.
+              Blurb
             </p>
           </div>
         </div>
         <div className="services__card">
           <img src={Service3} alt="Service_3" />
           <div className="services__card-text">
-            <h2>Startup Advisor</h2>
+            <h2>Startup Advising</h2>
             <p className="service__description">
-              Fionnuala, always a keen student, took an avid interest in languages and 
-              history in secondary school and chose a BA in European Studies in Trinity 
-              College Dublin after her leaving certificate, graduating with a first-class 
-              degree and a distinction in spoken German.
+              Blurb
             </p>
           </div>
         </div>

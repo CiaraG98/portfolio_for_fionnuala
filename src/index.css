@@ -15,7 +15,6 @@
     --color-bg: #E5E7E9;
     --color-bg-variant: #173753;
     --color-white: #fbfcff;
-    --color-hover: #274156;
     --color-bg-light: #1c6e8c;
 
     --transition: all 400ms ease;
@@ -56,4 +55,8 @@ a {
     color: var(--color-white);
     padding: 0.8rem;
     border-radius: 0.5rem;
+}
+
+.btn:hover {
+    background: var(--color-bg-light);
 }
