@@ -43,6 +43,13 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .services__cards {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+}
+
 /*
 .services__card:hover {
     border-color: var(--color-bg-light);

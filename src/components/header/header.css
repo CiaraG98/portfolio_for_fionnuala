@@ -61,19 +61,11 @@
 /* Small Devices */
 
 @media screen and (max-width: 600px) {
-    .container.header__container {
-        width: 100%;
-        grid-template-columns: 1fr;
-        height: 30vh;
-        gap: 0rem;
-        text-align: center;
+    .container.header__container{
+        height: 75vh;
     }
-    .header__img img {
-        width: 60%;
-    }
-
-    .header__phrase {
-        padding: 1rem;
+    .header__img img{
+        width: 13rem;
     }
 }
 

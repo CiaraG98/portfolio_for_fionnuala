@@ -60,3 +60,10 @@ a {
 .btn:hover {
     background: var(--color-bg-light);
 }
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}

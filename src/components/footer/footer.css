@@ -12,13 +12,14 @@
 
 .footer__links {
     margin: auto;
+    justify-content: center;
+    text-align: center;
     width: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1rem;
     font-size: 2rem;
     gap: 1rem;
-    align-items: center;
 }
 
 /* Medium Devices */
@@ -26,5 +27,11 @@
 @media screen and (max-width: 1024px) {
     .footer__container {
         height: 30vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__container {
+        height: 55vh;
     }
 }

@@ -10,6 +10,10 @@
     padding: 1.5rem;
 }
 
+#mobile_a, #mobile_s, #mobile_t, #mobile_c {
+    display: none;
+}
+
 .section__links {
     display: flex;
     gap: 3rem;
@@ -48,5 +52,11 @@
 /* Small Devices */
 
 @media screen and (max-width: 600px) {
+    #mobile_a, #mobile_s, #mobile_t, #mobile_c {
+        display: block;
+    }
 
+    #pc_a, #pc_s, #pc_t, #pc_c {
+        display: none;
+    }
 }
